@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type":"Feature",
+      "properties":{"name":"Ouest"},
+      "geometry":{"type":"Polygon","coordinates":[[[-72.8,18.3],[-72.2,18.3],[-72.2,19.0],[-72.8,19.0],[-72.8,18.3]]]}
+    }
+  ]
+}

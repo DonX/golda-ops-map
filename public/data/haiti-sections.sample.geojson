@@ -1,0 +1,15 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type":"Feature",
+      "properties":{"name":"Bizoton (Section Communale)"},
+      "geometry":{"type":"Polygon","coordinates":[[[-72.48,18.53],[-72.44,18.53],[-72.44,18.57],[-72.48,18.57],[-72.48,18.53]]]}
+    },
+    {
+      "type":"Feature",
+      "properties":{"name":"Morne l’Hôpital (Section Communale)"},
+      "geometry":{"type":"Polygon","coordinates":[[[-72.41,18.5],[-72.37,18.5],[-72.37,18.55],[-72.41,18.55],[-72.41,18.5]]]}
+    }
+  ]
+}

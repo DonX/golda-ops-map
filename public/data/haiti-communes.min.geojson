@@ -1,0 +1,10 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type":"Feature",
+      "properties":{"name":"Port-au-Prince"},
+      "geometry":{"type":"LineString","coordinates":[[-72.4,18.5],[-72.35,18.55],[-72.3,18.5]]]}
+    }
+  ]
+}
