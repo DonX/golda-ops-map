@@ -35,8 +35,7 @@ export default function MapBoard() {
       container: containerRef.current,
       style: STYLES[base],        // ← switch styles here
       center: [-72.5, 18.9],
-      zoom: 7,
-      antialias: true
+      zoom: 7
     });
 
     mapRef.current = map;
@@ -102,7 +101,7 @@ export default function MapBoard() {
     });
 
     return () => map.remove();
-  }, [base]); // ← reinit map when basemap changes
+  }, [base, visible]); // ← reinit map when basemap changes
 
   const toggle = (key: LayerKey) => {
     setVisible(prev => {
